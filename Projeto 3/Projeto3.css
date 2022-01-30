@@ -107,8 +107,8 @@
     align-items: center;
 }
 .hamburguercarrinho{
-    height: 100px;
-    width: 150px;
+    height: 200px;
+    width: 250px;
     border-radius: 20%;
     border: black solid 2px;
     margin: 20px;
@@ -116,4 +116,27 @@
 .clientes{
     display: flex;
     align-items: center;
+}
+.mais_info{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+#logofinal{
+    width: 70px; 
+    height: auto; 
+    align-self: center;
+    border: black 2px solid;
+    border-radius: 50%;
+}
+.social-media{
+    align-self: center;
+    margin: 10px;
+}
+.facebook{
+    width: 20px;
+    height: 20px;
 }
